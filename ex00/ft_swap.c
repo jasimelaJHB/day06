@@ -6,12 +6,12 @@
 /*   By: jasimela <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 11:07:36 by jasimela          #+#    #+#             */
-/*   Updated: 2020/06/23 11:09:04 by jasimela         ###   ########.fr       */
+/*   Updated: 2020/06/26 16:46:24 by jasimela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
-void	ft_swap(int *a,int *b);
+void	ft_swap(int *a,int *b)
 {
 	int temp_a;
 	temp_a = *a;

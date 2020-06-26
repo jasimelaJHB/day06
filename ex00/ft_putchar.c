@@ -6,12 +6,12 @@
 /*   By: jasimela <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 11:06:09 by jasimela          #+#    #+#             */
-/*   Updated: 2020/06/23 11:07:14 by jasimela         ###   ########.fr       */
+/*   Updated: 2020/06/26 16:45:03 by jasimela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
-void ft_putchar(char c);
+void ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
